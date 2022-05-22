@@ -1,0 +1,43 @@
+<div class="container" style="background-color:black;
+color: greenyellow ;border-radius: 15px; margin-top: 15px;">
+    <h1>Doctorlists....!</h1>
+    <table class="table table-condensed" style="color: greenyellow;">
+    
+        <thead>
+            <tr style="background-color:blueviolet;font-style:italic;">
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Specialist Field</th>
+                <th>No. of Patients Attended</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let doctor of doctors">
+                <td>{{doctor.id}}</td>
+                <td>{{doctor.name}}</td>
+                <td>{{doctor.gender}}</td>
+                <td>{{doctor.age}}</td>
+                <td>{{doctor.specialist_field}}</td>
+                <td>{{doctor.noofpatientsattended}}</td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+</div>
+
+
+<footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
+    <!-- Grid container -->
+    <div class="container p-4"></div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: blue">
+      © 2022 @Satya_Prakash_Das:
+      <a class="text-white" >HMS Project</a>
+    </div>
+    <!-- Copyright -->
+  </footer>

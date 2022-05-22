@@ -1,0 +1,73 @@
+
+
+<div class="container" style="background-color: black;color:greenyellow;">
+
+
+
+
+    <div class="example-button-row ">
+      <strong>Here</strong>
+    
+      <button mat-flat-button routerLink="accesseverything" routerLinkActive="active" color="primary" ><a href="http://localhost:4200/doctors_info">Doctor's Info</a></button>
+      <br>
+      <br>
+      <button mat-flat-button routerLink="accesseverything" routerLinkActive="active" color="primary"><a href="http://localhost:4200/addpatient">Patient's Info</a></button>
+      <br>
+      <br>
+
+
+
+
+
+
+  <form (ngSubmit)="viewProfile(putDoctorId)">
+    <label>Choose a Doctor of whom u want to check the Information of: </label>
+        <select style = 
+        "width:  35%;
+        height: 42px;background-color: black;color: lightgreen;" name="visitedDoctor" id="visitedDoctor" [(ngModel)]="putDoctorId" class="dropDownField">
+            <option value="" *ngFor="let doctor of doctors" [ngValue]="doctor.id">{{doctor.name}}
+            </option>
+        </select>
+                  <div class="container">
+                    <ng-container *ngFor="let doctor of doctors">
+                     
+                      <ng-container *ngIf="doctor.id === putDoctorId ">
+                        <br>
+                            <!--<p>{{doctor.name}}'s Details</p>-->
+                            <div class="edit1" style="text-align: -webkit-center;">
+                            <div class="card text-white bg-primary mb-6" style="max-width: 40rem;">
+                              <div class="card-header">Doctor's ID Card</div>
+                              <div class="card-body">
+                                
+                                <p class="card-text">Doctor's Name: {{doctor.name}}</p>
+                                <p class="card-text">Doctor's Specialist Field: {{doctor.specialist_field}}</p>
+                                <p class="card-text">Number of Attendies Yet:  {{doctor.noofpatientsattended}}</p>
+                              </div>
+                            </div>
+                          </div>
+                            <ng-container></ng-container>
+                            </ng-container>
+                      </ng-container>
+                      <!--
+                      <button type="button" class="btn btn-success" type="submit">
+                        View
+                        Profile
+                    </button>
+                  -->
+                  </div>
+</form>
+</div>
+  
+
+<footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
+  <!-- Grid container -->
+  <div class="container p-4"></div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: blue">
+    © 2022 @Satya_Prakash_Das:
+    <a class="text-white" >HMS Project</a>
+  </div>
+  <!-- Copyright -->
+</footer>

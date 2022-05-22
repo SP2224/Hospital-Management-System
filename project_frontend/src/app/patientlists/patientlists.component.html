@@ -1,0 +1,109 @@
+<div class="container" style="background-color: black; color:greenyellow;margin-top: 15px;border-radius: 15px;">
+
+
+<h1>Patient's Informations....</h1>
+
+<div class="container" style="background-color: black; color:greenyellow;">
+    <div class="row">
+        <div class="search-patients">
+            <h3>Search for a Patient ....</h3>
+            <input type="text" name="search" [(ngModel)]="searchText" placeholder="Search the ID here" class="form-control">
+
+        </div>
+    </div>
+</div>    
+
+
+
+<!--
+<p>rough works!</p>
+<div class="body">
+    <div class="container">
+        <form ngForm #searchPatient (ngSubmit)="onSubmit()" class="input-group">
+            <div class="input-group-prepend">
+                <label class="input-group-text">Patient's Id</label>
+            </div>
+            <input type="number" name="name" id="id" [(ngModel)]="id" class="form-control">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="submit">Search</button>
+            </div>
+        </form>
+        <br>
+        <fieldset class="border p-4">
+            <table *ngIf="patients;else notpresent" class="table table-borderless">
+                <caption>Patient</caption>
+                <tr>
+                    <th class="col-sm-5">Id</th>
+                    <td><b>:</b>{{patients.id}}</td>
+                </tr>
+                <tr>
+                    <th class="col-sm-5">Name</th>
+                    <td><b>:</b>{{patients.name}}</td>
+                </tr>
+                <tr>
+                    <th class="col-sm-5">VisitedDoctor</th>
+                    <td><b>:</b>{{patients.visited_doc}}</td>
+                </tr>
+                <tr>
+                    <th class="col-sm-5">DateOfVisit</th>
+                    <td><b>:</b>{{patients.dov}}</td>
+                </tr>
+                <tr>
+                    <th class="col-sm-5">Prescription</th>
+                    <td><b>:</b>{{patients.Prescription}}</td>
+                </tr>
+            </table>
+            <ng-template #notpresent>No patient</ng-template>
+            
+        </fieldset>
+    </div>
+</div>
+
+-->
+
+<div class="container">
+
+
+<h3>Patient ....</h3>
+    <table class="table table-condensed" style="background-color: black; color:greenyellow;">
+
+        <thead>
+            <tr style="background-color:blueviolet;font-style:italic;">
+                <th>ID</th>
+                <th>Name</th>
+                <th>Visited Doctor</th>
+                <th>Date of Visit</th>
+                <th>Prescription</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let patient of patients | filter:searchText">
+                <td>{{patient.id}}</td>
+                <td>{{patient.name}}</td>
+                
+                <td>{{patient. visited_doc}}</td>
+                <td>{{patient.dov | date}}</td>
+                <td><button mat-flat-button routerLink="presc" class="borderr" routerLinkActive="active" ><a href="http://localhost:4200/presc"  id = "designbtn">Get Prescription</a></button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+<footer class="footer fixed-bottom " style="position: inherit;background-color: blue; color: white; text-align: center; justify-content: center; font-size: smaller;">
+    <div>
+        <h2>All rights Reserved @2022 @Satya_Prakash_Das</h2>
+    </div>
+</footer>
+
+
+</div>

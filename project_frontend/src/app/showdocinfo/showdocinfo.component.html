@@ -1,0 +1,26 @@
+<p>showdocinfo works!</p>
+<div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+        <thead>
+            <tr style="background-color:blueviolet;font-style:italic;">
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Specialist Field</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let doctor of doctors">
+                <td>{{doctor.id}}</td>
+                <td>{{doctor.name}}</td>
+                
+                <td>{{doctor.age}}</td>
+                <td>{{doctor.gender}}</td>
+                <td>{{doctor.specialist_field}}</td>
+            </tr>
+        </tbody>
+    </div>
+  </div>

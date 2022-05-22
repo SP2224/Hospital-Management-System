@@ -1,0 +1,13 @@
+#designbtn{
+    text-decoration: none;
+    
+    color: greenyellow;
+   
+    
+}
+.borderr{
+    background-color: black;
+    
+    border: solid 2px rgb(8, 255, 218);
+    border-radius: 15px;
+}

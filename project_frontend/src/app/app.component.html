@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg navbar-black bg-black">
+
+
+
+
+
+  <a class="navbar-brand" href="#"> <b><i>Hospital Management System</i></b></a>
+  <button     class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav" style="display: flex; text-align:center;margin-left:22rem">
+    <ul class="navbar-nav" style="list-style:upper-alpha ;">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home </a>
+      </li>
+      <li class="nav-item" >
+        <a routerLink="doctors_info" routerLinkActive="active" class="nav-link" style="color: yellow;"><b>Doctor's Info</b></a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="patients_info" routerLinkActive="active" class="nav-link" style="color: orange;"><b>Patient's Info</b></a>
+      </li>
+      <!--
+      <li class="nav-item">
+          <a routerLink="addpatient" routerLinkActive="active" class="nav-link">Add Patients</a>
+      </li>
+    -->
+      <!--
+      <li class="nav-item">
+        <a routerLink="checkpatientinfo" routerLinkActive="active" class="nav-link" style="color: lightgreen;">Check Patient Info</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="showdocinfo" routerLinkActive="active" class="nav-link" style="color: purple;">Show Doctor Info</a>
+    </li>
+    <li class="nav-item">
+<a routerLink="rough" routerLinkActive="active" class="nav-link" style="color: purple;">Rough</a>
+</li>
+
+<li class="nav-item">
+  <a routerLink="presc" routerLinkActive="active" class="nav-link" style="color: red;">presc</a>
+</li>
+ 
+-->
+
+
+     
+    </ul>
+  </div>
+
+</nav>
+
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+

@@ -1,0 +1,13 @@
+.example-button-row{
+    text-align: center;  
+    
+    width: 100%;  
+    height: 50%;  
+    padding-top: 100px;  
+    padding-bottom: 100px;   
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}

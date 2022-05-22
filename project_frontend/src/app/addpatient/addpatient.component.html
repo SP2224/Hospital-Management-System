@@ -1,0 +1,68 @@
+<div class="col-md-12"  style="background-color: black;color: greenyellow;text-align:left;margin-top: 30px; border-radius: 15px;">
+<h1>Add a Patient !</h1>
+
+<form (ngSubmit) = "onSubmit()">
+    
+    <div class="form-group" >
+        <label>Patient Name:</label>
+        <input type="text" class="form-control" id="name"
+        [(ngModel)]="patient.name" name="name" style="background-color: black;color: greenyellow;text-align:left;" placeholder="Enter here ....">
+    </div>
+    <!--
+    <div class="form-group">
+        <label>Previously Visited Doctor:</label>
+        <input type="text" class="form-control" id="visited_doc"
+        [(ngModel)]="patient.visited_doc" name="visited_doc">
+
+
+    </div>
+    -->
+    <!--  
+    <div class="container" style="margin-top: 100px; width: 200px;">
+        <mat-form-field>
+            <mat-select [(value)]="selectVal">
+                <mat-option *ngFor="let doctor of doctors" [value]="doctor">{{doctor}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    <p>{{selectVal}}</p>
+     -->
+     <div>
+         <label>Choose a Doctor with whom should you want to consult with: </label>
+     <select style = 
+     "width:  100%;
+     height: 42px;background-color: black; color: greenyellow;"  name="visited_doc" id="visited_doc" [(ngModel)]="patient.visited_doc" class="dropDownMenu">
+     <option  value="" *ngFor="let doctor of doctors" [ngValue]="doctor.name">{{doctor.name}}</option>
+
+    </select>
+    </div>
+    
+    <div class="form-group">
+        <label>Date of Visit:</label>
+        <input type="date" class="form-control" id="dov"
+        [(ngModel)]="patient.dov" name="dov" style="background-color: grey; color: greenyellow;">
+        
+    </div>
+    <br>
+    <br>
+    
+    <button class="btn btn-primary" type="submit">Submit</button>
+    <button (click)="goBack()" class="btn btn-primary" style="margin-left: 10px;">Back to Patient Info Page</button>
+    
+</form>
+</div>
+ 
+
+
+<footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
+    <!-- Grid container -->
+    <div class="container p-4"></div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: blue">
+      © 2022 @Satya_Prakash_Das:
+      <a class="text-white" >HMS Project</a>
+    </div>
+    <!-- Copyright -->
+  </footer>

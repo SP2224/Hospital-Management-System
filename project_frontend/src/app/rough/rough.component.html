@@ -1,0 +1,29 @@
+<h2 style="color: greenyellow;">hii </h2>
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <h3 style="color: greenyellow;">Programming Languages</h3>
+        <div class="searchBox">
+          <input (keyup)="onSubmit($event)" 
+            [(ngModel)]="searchValue" type="text" 
+            id="searchKey" class="form-control"
+            placeholder="Search Box" />
+        </div>
+          
+        <div *ngIf="condition; then block1; else block2">
+        </div>
+        <ng-template #block1>
+          <strong style="color: greenyellow;">{{prevText}}</strong>
+        </ng-template>
+        <ng-template #block2>
+          <h6 style="color: greenyellow;">{{res_cnt}} Search Result Found
+            <span *ngFor="let lang of res_list">
+              <strong style="color: greenyellow;">{{lang}}, </strong></span>
+          </h6>
+        </ng-template>
+      </div>
+    </div>
+  </div>
