@@ -37,7 +37,7 @@ Used Spring Boot as a Backend and created some Rest API's through which Mysql fe
 
 ![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20104901.jpg)
 ## Doctor's Prescription
-###This's the doctor's prescription where the doctor can prescribe a medicine for someone's use and also upload it in drive for the patients.
+### This's the doctor's prescription where the doctor can prescribe a medicine for someone's use and also upload it in drive for the patients.
 
 ![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20104920.jpg)
 ## Database of Doctor's Info....!
