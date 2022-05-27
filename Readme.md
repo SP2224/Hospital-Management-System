@@ -68,3 +68,6 @@ Here GET's are done inorder to check the list of JSON entities are available or 
 ![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20144529.jpg)
 
 ## Integrating Github with Jenkins
+
+![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20164205.jpg)
+![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20164410.jpg)
