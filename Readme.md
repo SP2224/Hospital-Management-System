@@ -3,7 +3,7 @@
 
 
 # About The Project
-#Home
+## Home
 
 ![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20104726.jpg)
 ![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20104738.jpg)
