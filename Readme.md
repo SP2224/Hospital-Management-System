@@ -61,6 +61,10 @@ Here GET's are done inorder to check the list of JSON entities are available or 
 ### Junit Test is done to properly check whether all the REST API's are giving the desired and actual output or not. The assert methods are used inorder to check the actual output with the expected output.
 ![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20110515.jpg)
 
+### Jasmine Karma Testing
+![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20112309.jpg)
+![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20112329.jpg)
+
 ## Maven Jar Build
 ### In the POM.XML we need to use a maven plugin.This JAR file is created inorder to deploy an entire application, including its classes and their associated resources, in a single request.
 
