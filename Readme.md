@@ -56,6 +56,11 @@ Here GET's are done inorder to check the list of JSON entities are available or 
 
 ![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20105646.jpg)
 ![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20105709.jpg)
+
+### POST
+![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20202809.jpg)
+![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20202922.jpg)
+
 ## Junit Testing
 
 ### Junit Test is done to properly check whether all the REST API's are giving the desired and actual output or not. The assert methods are used inorder to check the actual output with the expected output.
