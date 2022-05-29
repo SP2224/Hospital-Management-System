@@ -8,7 +8,7 @@ Used Spring Boot as a Backend and created some Rest API's through which Mysql fe
 ## Home
 ### The Server is running on http://localhost:4200/ in which the backend of the project i.e-Spring is integrated with it. 
 
-![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20104726.jpg)
+![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20122505.jpg)
 ![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20104738.jpg)
 
 
