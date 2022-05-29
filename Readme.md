@@ -58,8 +58,8 @@ Here GET's are done inorder to check the list of JSON entities are available or 
 ![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20105709.jpg)
 
 ### POST
-![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20202809.jpg)
-![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-27%20202922.jpg)
+![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-28%20202809.jpg)
+![preview of code](https://github.com/SP2224/Hospital-Management-System/blob/main/Screenshots/Screenshot%202022-05-28%20202922.jpg)
 
 ## Junit Testing
 
